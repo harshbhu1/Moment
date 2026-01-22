@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class FirstController {
-    private RequestValidator requestvalidator;
-
-    private 
+   
     
 
     public ResponseEntity<String>  createMoment(RequestEntity<Object> payload) {
